@@ -1,10 +1,12 @@
 #EXTM3U
 #EXTINF:-1 group-title="Эфирные",Первый канал HD
-http://streamer.enchart.one/42/06936289cce93c2ec61855d924639487400f1e82/1/stream.m3u8
+rtmp://178.159.112.198//pervyj_hd
 #EXTINF:-1 group-title="Эфирные",Первый канал
 http://dmi3y-tv.ru/hls/T2/CH_1TV.m3u8
 #EXTINF:-1 group-title="Эфирные",Россия 1 HD
 https://radio-live-mg.rtr-vesti.ru/hls2/russia_hd/playlist_4.m3u8 
+#EXTINF:-1 group-title="Эфирные",Россия 1 HD
+rtmp://178.159.112.198//russia_hd 
 #EXTINF:-1 group-title="Эфирные",Россия 1
 http://dmi3y-tv.ru/hls/T2/CH_RUSSIA1.m3u8
 #EXTINF:-1 group-title="Эфирные",Россия РТР
@@ -53,12 +55,14 @@ https://bl.uma.media/live/317846/HLS/4614144_3/2/1/playlist.m3u8
 http://dmi3y-tv.ru/hls/T2/CH_TV3.m3u8
 #EXTINF:-1 group-title="Эфирные",Звезда HD
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="Эфирные",Звезда Плюс HD
+http://stv.mediacdn.ru/live/cdn/zvezdaplus/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Эфирные",Пятый канал
 http://dmi3y-tv.ru/hls/T2/CH_5TV.m3u8
 #EXTINF:-1 group-title="Эфирные",ТНТ HD
 https://bl.uma.media/live/317850/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные",ТНТ 
-http://dmi3y-tv.ru/hls/T2/CH_TNT.m3u8
+rtmp://178.159.112.198//tnt
 #EXTINF:-1 group-title="Эфирные",ТНТ4
 https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные",СТС HD
@@ -66,7 +70,7 @@ rtmp://178.159.112.198//sts
 #EXTINF:-1 group-title="Эфирные",СТС
 http://dmi3y-tv.ru/hls/T2/CH_STS.m3u8
 #EXTINF:-1 group-title="Эфирные",СТС Love
-http://streamer.enchart.one/42/06936289cce93c2ec61855d924639487400f1e82/23/stream.m3u8
+http://cdn-lb.iptv2022.com/p/7YHaakvlqmFMZS4UYSIBIQ,1677066744/streaming/stsloveott/324/1/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Эфирные",Суббота!
 https://bl.uma.media/live/317845/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Эфирные",Домашний
@@ -89,8 +93,6 @@ rtmp://5.182.231.251//2050
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Новостные",Россия 24
 https://vgtrkregion.cdnvideo.ru/vgtrk/krasnodar/russia24sd/playlist_sdhigh.m3u8
-#EXTINF:-1 group-title="Новостные",Россия 24 (Сочи)
-http://sochi.camera:8080/cam_256/index.m3u8?token=null
 #EXTINF:-1 group-title="Новостные",Мир 24
 https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Новостные",360 Новости
@@ -107,6 +109,10 @@ http://portal.ott.pink/watch/7045/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B3
 http://ott.inmart.tv:8081/19/index.m3u8?HasBahCa.m3u8
 #EXTINF:-1 group-title="Рeгиональныe",Оплот ТВ
 http://ott.inmart.tv:8081/54/index.m3u8?HasBahCa.m3u8
+#EXTINF:-1 group-title="Рeгиональныe",Юнион
+http://ott.inmart.tv:8081/35/index.m3u8
+#EXTINF:-1 group-title="Рeгиональныe",Луганск 24
+https://tv.gtrklnr.ru/hls/Lugansk24.m3u8
 #EXTINF:-1 group-title="Рeгиональныe",Москва 24 
 https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8
 #EXTINF:-1 group-title="Рeгиональныe",Лен ТВ 24 
@@ -121,6 +127,8 @@ https://simf.1tvcrimea.ru/simferopol24.m3u8
 http://astrakhan24.mediacdn.ru:80/cdn/astrakhan24/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Рeгиональныe",Ростов-папа HD
 http://live-rostovpapa.cdnvideo.ru/rostovpapa/rostovpapa.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Рeгиональныe",Первый Ростовский HD
+https://rost.mediacdn.ru/cdn/rostov1/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Рeгиональныe",Первый Ярославский
 https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Рeгиональныe",МТВ Волгоград
@@ -191,12 +199,8 @@ http://streamer1.ruslanatv.ru/russia/kinosemya_sd_new_2023/playlist.m3u8
 http://streamer1.ruslanatv.ru/russia/kinosvidanie_sd_new_2023/playlist.m3u8
 #EXTINF:-1 group-title="Кино",Кинокомедия
 http://streamer1.ruslanatv.ru/russia/kinokomediya_sd_2023/playlist.m3u8
-#EXTINF:-1 group-title="Кино",Мир сериала
-http://edge05.beetv.kz:80/btv/SWM/mir_seriala/mir_seriala.m3u8
-#EXTINF:-1 group-title="Кино",START Air
-http://edge05.beetv.kz:80/btv/SWM/start_air_hd/start_air_hd.m3u8
-#EXTINF:-1 group-title="Кино",START World
-http://edge05.beetv.kz:80/btv/SWM/start_world_hd/start_world_hd.m3u8
+#EXTINF:-1 group-title="Кино",Наше новое кино
+http://europe3.livetv.az/russia/nashe_novoe_kino_sd_new_2023/playlist.m3u8
 #EXTINF:-1 group-title="Кино",Остросюжетное HD
 http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8
 #EXTINF:-1 group-title="Кино",Премиальное HD
@@ -205,10 +209,10 @@ http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m
 rtmp://5.182.231.251//2131
 #EXTINF:-1 group-title="Кино",Киносат
 rtmp://5.182.231.251//2121
-#EXTINF:-1 group-title="Кино",Кинобоевик
-http://edge05.beetv.kz:80/btv/SWM/kinoboevik_hd/kinoboevik_hd.m3u8
-#EXTINF:-1 group-title="Кино",Еврокино
-http://edge05.beetv.kz:80/btv/SWM/Eurokino/Eurokino.m3u8
+#EXTINF:-1 group-title="Кино",Кино и сериалы HD
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
+#EXTINF:-1 group-title="Кино",Мелодрамы HD
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/tracks-v5a1/mono.m3u8
 #EXTINF:-1 group-title="Кино",Мировое Кино
 http://edge05.beetv.kz:80/btv/SWM/mirovoe_kino_hd/mirovoe_kino_hd.m3u8
 #EXTINF:-1 group-title="Кино",Hollywood
@@ -219,8 +223,8 @@ http://edge05.beetv.kz/btv/SWM/Bollywood_HD/Bollywood_HD.m3u8
 http://edge05.beetv.kz:80/btv/SWM/Amedia_PremiumHD/Amedia_PremiumHD_720p_3500kbps.m3u8
 #EXTINF:-1 group-title="Кино",AMEDIA HIT HD
 http://edge05.beetv.kz:80/btv/SWM/AmediaHitHD/AmediaHitHD_720p_3500kbps.m3u8
-#EXTINF:-1 group-title="Кино",AMEDIA 1
-http://streamer1.ruslanatv.ru/russia/amedia_2023/playlist.m3u8
+#EXTINF:-1 group-title="Кино",Amedia 1 HD
+http://edge05.beetv.kz:80/btv/SWM/A1/A1.m3u8
 #EXTINF:-1 group-title="Кино",AMEDIA 2
 rtmp://5.182.231.251//2046
 #EXTINF:-1 group-title="Кино",FOX HD
@@ -254,11 +258,11 @@ https://bl.uma.media/live/485544/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные",Viasat Nature
 https://bl.uma.media/live/485545/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные",National Geographic
-http://edge05.beetv.kz:80/btv/SWM/NatGeo_channel/NatGeo_channel.m3u8
+http://45.159.74.13:80/NationalGeographic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные",Nat geo wild 
-http://edge05.beetv.kz/btv/SWM/NatGeo_Wild/NatGeo_Wild_1080p_5000kbps.m3u8
+http://45.159.74.13:80/NatGeoWild/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Познавательные",Animal Planet
-http://edge05.beetv.kz:80/btv/SWM/animal_hd/animal_hd.m3u8
+http://europe3.livetv.az/russia/animal_planet_sd_new_2023/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные",Big Planet
 http://edge05.beetv.kz:80/btv/SWM/big_planet_hd/big_planet_hd.m3u8
 #EXTINF:-1 group-title="Познавательные",Discovery HD
@@ -293,8 +297,8 @@ https://strm.yandex.ru/kal/rtg/rtg0.m3u8
 rtmp://5.182.231.251//2100
 #EXTINF:-1 group-title="Познавательные",В мире животных
 rtmp://5.182.231.251//2089
-#EXTINF:-1 group-title="Познавательные",Охотник и рыболов HD
-http://edge05.beetv.kz:80/btv/SWM/Ohotnik_i_ribolov/Ohotnik_i_ribolov.m3u8
+#EXTINF:-1 group-title="Познавательные",Диалоги о Рыбалке FHD
+https://strm.yandex.ru/kal/dialogi/dialogi0.m3u8
 #EXTINF:-1 group-title="Познавательные",ОХОТА И РЫБАЛКА
 rtmp://5.182.231.251//2019
 #EXTINF:-1 group-title="Познавательные",ДИКАЯ РЫБАЛКА HD
@@ -331,14 +335,16 @@ http://dmi3y-tv.ru/hls/CH_SHANSONTV.m3u8
 https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
 #EXTINF:-1 group-title="Музыкальные",ЖАРА
 rtmp://5.182.231.251//2129
+#EXTINF:-1 group-title="Музыкальные",Жара Kids HD
+http://hls-zhara.cdnvideo.ru/zhara/zhara/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные",Bridge TV Русский Xит HD
 http://strm.yandex.ru/kal/bridgetv_russkiyhit/bridgetv_russkiyhit0.m3u8
-#EXTINF:-1 group-title="Музыкальные",Bridge TV Фрэш
-http://109.197.192.121:8080/mtv/mono.m3u8
+#EXTINF:-1 group-title="Музыкальные",Song TV Russia
+https://songtv.hls.iptvdc.com/web-russia/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Музыкальные",Bridge TV Шлягер
 https://livetv.mylifeisgood.ml/channels/bridgetvshlyager.m3u8
-#EXTINF:-1 group-title="Музыкальные",MIX M
-http://89.179.247.144/mixm.m3u8
+#EXTINF:-1 group-title="Музыкальные",MTV
+rtmp://5.182.231.251//2130
 #EXTINF:-1 group-title="Музыкальные",ЛЯ-МИНОР
 rtmp://5.182.231.251//2043
 #EXTINF:-1 group-title="Музыкальные",AIVA HD
@@ -347,8 +353,8 @@ http://193.33.240.8:80/aiva_hd/video.m3u8
 http://dmi3y-tv.ru/hls/CH_MUZYKA_PERVOGO.m3u8
 #EXTINF:-1 group-title="Музыкальные",MUSIC BOX RUSSIA
 http://dmi3y-tv.ru/hls/CH_MUSICBOXRUSSIA.m3u8
-#EXTINF:-1 group-title="Музыкальные",RUSSIAN MUSIC BOX
-http://musictv.mediacdn.ru/cdn/musicboxhd/playlist_sdmid.m3u8
+#EXTINF:-1 group-title="Музыкальные",МУЗ ТВ
+rtmp://178.159.112.198//muz_tv
 #EXTINF:-1 group-title="Музыкальные",MUSIC BOX GOLD
 http://dmi3y-tv.ru/hls/CH_MUSICBOXGOLD.m3u8
 #EXTINF:-1 group-title="Музыкальные",О!2
@@ -419,6 +425,8 @@ rtmp://5.182.231.251//2157
 http://194.190.78.91:8080/TiJi_OT/video.m3u8
 #EXTINF:-1 group-title="Детские",Капитан фантастика
 rtmp://5.182.231.251//2098
+#EXTINF:-1 group-title="Детские",Супер герои
+rtmp://93.189.60.202//1041
 #EXTINF:-1 group-title="Детские",МУЛЬТИМУЗЫКА
 rtmp://178.159.112.198//strana
 #EXTINF:-1 group-title="Детские",Рыжый
@@ -452,7 +460,7 @@ http://portal.ott.pink/watch/13/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359
 #EXTINF:-1 group-title="Украинские",Новый канал
 http://31.43.48.248:7000/ch6/video.m3u8
 #EXTINF:-1 group-title="Украинские",ТЕТ HD
-http://31.43.48.248:7000/ch7/video.m3u8
+rtmp://93.189.60.202//1009
 #EXTINF:-1 group-title="Украинские",2+2
 http://31.43.48.248:7000/ch8/video.m3u8
 #EXTINF:-1 group-title="Украинские",Квартал ТВ
@@ -481,6 +489,8 @@ http://portal.ott.pink/watch/7431/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B3
 http://live.m2.tv/hls3/720/stream.m3u8
 #EXTINF:-1 group-title="Украинские",Малятко
 rtmp://93.189.60.202//1003
+#EXTINF:-1 group-title="Украинские",Плюс Плюс
+rtmp://93.189.60.202//1002
 #EXTINF:-1 group-title="Взрослые",Playboy TV
 http://93.125.29.22:8901/playboy-tv
 #EXTINF:-1 group-title="Взрослые",O-la-la
@@ -491,3 +501,6 @@ rtmp://5.182.231.251//2162
 https://cdncentury-venushd.zolechamedia.net/vs640-3004.m3u8
 #EXTINF:-1 group-title="Взрослые",XXX Cartoon
 http://144.76.58.245:2307/cartoon/index.m3u8
+
+
+
